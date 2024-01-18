@@ -1,0 +1,152 @@
+#login{
+    display: flex;
+    align-items: center;
+    height: 640px;
+}
+#login #eye-button{
+   font-size: 20px;
+   height:25px;
+   width: 25px;
+   border: none;
+   position: relative;
+   bottom: 100px;
+   background-color: white;
+}
+
+#update{
+   display: flex;
+   align-items: center;
+   height: 640px;
+}
+#header{
+    background: linear-gradient(to right,rgb(69,179,157),rgb(3,124,100));
+ }
+ #header #profile-dropdown{
+   padding: 0px 0px;
+   position: relative;
+   bottom: 11px;
+ }
+
+ 
+ #header img{
+    width: 100px;
+    box-shadow: 10px 10px black;
+ }
+ #header #header-search{
+    margin-right: 10px;
+ }
+ #header i{
+     font-size: 20px;
+     color: white;
+     margin-right: 20px;
+ }
+ #header #profile-button{
+   padding: 0px 0px;
+ }
+  #header ul li a:hover{
+    transition-property: color;
+    transition-duration: 1s;
+     color: green;
+  }
+  #slider img{
+       width: 100%;
+       height: 350px;
+  }
+  #slider .carousel-caption{
+     color:black;
+    margin: 0px 500px 100px 0px;
+    font-family: 'Zeyada', cursive;
+  }
+  #absolute-box{
+    width: 50%;
+    position: absolute;
+    top: 400px;
+    background-color:aliceblue;
+    border-radius: 10%;
+    margin-left: 40px;
+  }
+ #absolute-box img{
+    margin: 10px 0px 10px 0px;
+    width: 200px;
+    height: 180px;
+    border-radius: 8%;
+ }
+ #absolute-box h5{
+   margin-left: 60px;
+ }
+ #cards{
+    background-color: antiquewhite;
+      padding-top: 200px;
+ }
+ #cards h2{
+    font-family: 'Zeyada', cursive;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ #cards img{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+ }
+ #cards #price{
+    font-weight: lighter;
+    text-decoration:line-through;
+    display:inline;
+ }
+ #cards #discount{
+    font-weight: bold;
+    display: inline-block;
+ }
+ 
+ #cards #cards2{
+    padding: 20px 10px;
+ }
+ 
+  #footer{
+    background: linear-gradient(to right,rgb(69,179,157),rgb(3,124,100));
+    padding-bottom: 10px;
+ }
+ 
+ #footer #footer-p{
+    color: white;
+    text-align: justify;
+    margin-top: 20px;
+    
+ }
+ #footer tr{
+    display: flex;
+ }
+ #footer td{
+    color: white;
+    text-align:justify;
+    margin-right: 10px;
+    margin-bottom: 5px;
+ }
+ #footer h2{
+    text-align: center;
+ }
+ #footer #logo-img{
+    width: 100px;
+    box-shadow: 10px 10px black;
+ }
+ #footer img{
+    width: 40px;
+ }
+ #footer hr{
+   height: 2px;
+   width:700px;
+   
+ }
+ #footer #scroll-button{
+    position: fixed;
+    left: 1430px;
+    bottom: 20px;
+    height:0px;
+    width:0px;
+    font-size: 0px;
+    border:none;
+ }
+ 
+ #footer #scroll-button:active{
+    color: green;
+ }
